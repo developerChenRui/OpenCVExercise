@@ -10,7 +10,9 @@ I think the image of R channel should be a image contains only red, and the same
 
 
 2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. What are the ranges of pixel values in each channel of each of the above mentioned colorspaces? <br />
-```('value at R(20,25):', 153)
+
+``` python
+('value at R(20,25):', 153)
 ('value at G(20,25):', 215)
 ('value at B(20,25):', 252)
 ('value at Y(20,25):', 201)
@@ -23,7 +25,9 @@ value range of R,G,B : 0~255
 value range of Y,U,V : 16~235,16~240,16~240
 value range of H,S,V : 0~180,0~255,0~255
 value range of L,A,B : 0~100,-127~127,-127~127
-value range of C,M,Y,K : 0~100```
+value range of C,M,Y,K : 0~100
+```
+
 
 ## Exercise three
 1. Look at the code in Noise.cpp and implement the code in Python. Also, print the results for di↵erent noise values in the Gaussian case, mean = 0, 5, 10, 20 and sigma = 0, 20, 50, 100 and for the salt-and-pepper case, pa = 0.01, 0.03, 0.05, 0.4 and pb = 0.01, 0.03, 0.05, 0.4. <br />
