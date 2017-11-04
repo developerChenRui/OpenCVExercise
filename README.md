@@ -49,6 +49,7 @@ it may not be good in all the conditions where image has different lighting cond
 
 when image has different lighting conditions in different areas
 
+<img src="https://github.com/developerChenRui/OpenCVExercise/blob/master/adaptive.png" width="33%" height="33%">
 
 
 
