@@ -2,6 +2,26 @@
 ## Exercise one
 1. How does a program read the cvMat object, in particular, what is the
 order of the pixel structure?       <br />
+``` c++
+Mat img = imread("image.jpg");
+#    typedef struct CvMat
+#    {
+#        int type;    
+#        int step;
+#    
+#        /* for internal use only */
+#        int* refcount;
+#        int hdr_refcount;
+#    
+#        union
+#        {
+#            uchar* ptr;
+#            short* s;
+#            int* i;
+#            float* fl;
+#            double* db;
+#        } data;
+```
 ## Exercise two
 1. ColorImage.cpp is a program that takes a look at colorspace conversions in OpenCV. Run the code in ColorImage.cpp and comment on the outputs. Implement the same thing in Python and save each image.  <br />
 
