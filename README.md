@@ -32,11 +32,24 @@ value range of C,M,Y,K : 0~100
 ## Exercise three
 1. Look at the code in Noise.cpp and implement the code in Python. Also, print the results for di↵erent noise values in the Gaussian case, mean = 0, 5, 10, 20 and sigma = 0, 20, 50, 100 and for the salt-and-pepper case, pa = 0.01, 0.03, 0.05, 0.4 and pb = 0.01, 0.03, 0.05, 0.4. <br />
 
-2. Change the kernel sizes for all the filters with all di↵erent values for noises and print the results for 3x3, 5x5 and 7x7 kernels. Comment on the results. Which filter seems to work ”better” for images with salt-and-pepper noise and gaussian noise?
+2. Change the kernel sizes for all the filters with all di↵erent values for noises and print the results for 3x3, 5x5 and 7x7 kernels. Comment on the results. Which filter seems to work ”better” for images with salt-and-pepper noise and gaussian noise?<br />
 
-with the increase of the kernel size, the image will become more blurred<br />
-Median filter works better for images with salt-and-pepper noise.<br />
-Gaussian filter works better for images with gaussian noise.<br />
+with the increase of the kernel size, the image will become more blurring;Median filter works better for images with salt-and-pepper noise.Gaussian filter works better for images with gaussian noise.<br />
+
+## Exercise four
+1.Look at Threshold.cpp and implement the code in Python, and observe the results for di↵erent threshold values. Comment on the results. <br />
+
+it is easy to understand the Truncate/Binary/Binary_inv. And for the band filter, what the code do is to make f(x) = maxval (27<f(x)<125) and f(x) = 0 (otherwise); do not really understand what the semi filter do. and the algorithm of Adaptive filter calculate the threshold for a small regions of the image. So we get different thresholds for different regions of the same image and it gives us better results for images with varying illumination.<br />
+
+2.What are the disadvantages of binary threshold?<br />
+
+it may not be good in all the conditions where image has different lighting conditions in different areas.<br />
+
+3.When is Adaptive Threshold useful?<br />
+
+when image has different lighting conditions in different areas
+
+
 
 
 
