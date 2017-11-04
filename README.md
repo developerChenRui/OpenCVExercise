@@ -37,15 +37,15 @@ value range of C,M,Y,K : 0~100
 with the increase of the kernel size, the image will become more blurring;Median filter works better for images with salt-and-pepper noise.Gaussian filter works better for images with gaussian noise.<br />
 
 ## Exercise four
-1.Look at Threshold.cpp and implement the code in Python, and observe the results for di↵erent threshold values. Comment on the results. <br />
+1. Look at Threshold.cpp and implement the code in Python, and observe the results for di↵erent threshold values. Comment on the results. <br />
 
 it is easy to understand the Truncate/Binary/Binary_inv. And for the band filter, what the code do is to make f(x) = maxval (27<f(x)<125) and f(x) = 0 (otherwise); do not really understand what the semi filter do. and the algorithm of Adaptive filter calculate the threshold for a small regions of the image. So we get different thresholds for different regions of the same image and it gives us better results for images with varying illumination.<br />
 
-2.What are the disadvantages of binary threshold?<br />
+2. What are the disadvantages of binary threshold?<br />
 
 it may not be good in all the conditions where image has different lighting conditions in different areas.<br />
 
-3.When is Adaptive Threshold useful?<br />
+3. When is Adaptive Threshold useful?<br />
 
 when image has different lighting conditions in different areas
 
