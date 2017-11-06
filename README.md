@@ -26,7 +26,9 @@ Mat img = imread("image.jpg");
 1. ColorImage.cpp is a program that takes a look at colorspace conversions in OpenCV. Run the code in ColorImage.cpp and comment on the outputs. Implement the same thing in Python and save each image.  <br />
 
 The only thing different from what I thought is the image of Channel R,G,B 
-I think the image of R channel should be a image contains only red, and the same for the G and B. But what the code gave me is three gray images. Then I try another kind of thing that set other two channel to zeros but make red/green/blue remain what they are and I get what I want.
+I think the image of R channel should be a image contains only red, and the same for the G and B. But what the code gave me is three gray images. Then I try another kind of thing that set other two channel to zeros but make red/green/blue remain what they are and I get what I want. <br />
+
+<img src="https://github.com/developerChenRui/OpenCVExercise/blob/master/blue.png" width="25%" height="25%"><img src="https://github.com/developerChenRui/OpenCVExercise/blob/master/green.png" width="25%" height="25%"><img src="https://github.com/developerChenRui/OpenCVExercise/blob/master/red.png" width="25%" height="25%">
 
 
 2. Print out the values of the pixel at (20,25) in the RGB, YCbCr and HSV versions of the image. What are the ranges of pixel values in each channel of each of the above mentioned colorspaces? <br />
