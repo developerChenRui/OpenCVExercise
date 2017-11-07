@@ -73,8 +73,9 @@ when image has different lighting conditions in different areas
 
 <img src="https://github.com/developerChenRui/OpenCVExercise/blob/master/adaptive.png" width="33%" height="33%">
 
+## TemplateMatching
 
-
+<img src="https://github.com/developerChenRui/OpenCVExercise/blob/master/match_img.jpg" width="50%" height="50%">
 
 
 
